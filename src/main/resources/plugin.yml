@@ -1,0 +1,8 @@
+name: BetterTeams-MobScore
+version: '${version}'
+main: com.triassic.mobscore.MobScore
+api-version: 1.13
+prefix: MobScore
+authors: [Triassic]
+depend: [BetterTeams]
+description: Makes killing mobs give clan score with score configured in config file.
