@@ -1,5 +1,5 @@
 name: BetterTeams-MobScore
-version: '${version}'
+version: 1.0.0
 main: com.triassic.mobscore.MobScore
 api-version: 1.13
 prefix: MobScore
