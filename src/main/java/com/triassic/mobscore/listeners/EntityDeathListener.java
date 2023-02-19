@@ -27,6 +27,11 @@ public class EntityDeathListener implements Listener {
 
         if (scoreEntities.containsKey(type)) {
             Player player = entity.getKiller();
+
+            if (player == null) {
+                return;
+            }
+
             Team team = Team.getTeam(player);
 
             if (team == null) {
